@@ -1,11 +1,13 @@
 import os
 from random import randint, choice
 from sys import platform
+import msvcrt
 class Mapgrid:
     def __init__(self, width, height):
         self.width = width
         self.height = height
         self.walls = []
+        self.quiz = []
         self.start = (0, 0)
         self.goal = (width-1, height-1)
         self.player = (0, 0)
@@ -40,6 +42,26 @@ def draw_map(graph, width = 3): # funkcja rysuje matrycę mapy
             else:
                 print("%%-%ds" % width % '.', end="")
         print()
+
+def setup_quiz(graph, pct=1 ):
+    out = []
+    for i in range(int(graph.height*pct)):
+        x = 0
+        y = randint(0, graph.height - 1)
+        out.append((x, y))
+    for i in range(int(graph.height*pct)):
+        x = graph.width-1
+        y = randint(0, graph.height - 1)
+        out.append((x, y))
+    for i in range(int(graph.width*pct)):
+        y = 0
+        x = randint(0, graph.width - 1)
+        out.append((x, y))
+    for i in range(int(graph.width*pct)):
+        y = graph.height-1
+        x = randint(0, graph.width - 1)
+        out.append((x, y))
+    return out
             
 def setup_walls(graph, pct= 0.3): # funkcja losowo generuje ściany na mapie, przyjmuje procent zajętości mapy
     out = []
@@ -58,10 +80,13 @@ def clear():
 def main():
     g = Mapgrid(15, 10)
     g.walls = setup_walls(g)
+    g.quiz = setup_quiz(g)
     draw_map(g)
     
     while g.player != g.goal:
-        move = input("Move (w/a/s/d): ")
+        print("Move (w/a/s/d): ", end="", flush=True)
+        move = msvcrt.getch().decode('utf-8').lower()
+        print(move)  # Display the key pressed
         move_player(g, move)
         clear()
         draw_map(g)
