@@ -1,4 +1,5 @@
 import os
+import sys
 import time
 from random import randint, choice
 from sys import platform
@@ -22,8 +23,14 @@ class Question:
         self.odpowiedzi=[]
         self.poprawna=0
 def read_file():
-    with open("PYTANIA.txt", "r",encoding="utf-8") as file:
-    lines = file.readlines()
+    # When frozen by PyInstaller, bundled files are extracted to sys._MEIPASS
+    if getattr(sys, 'frozen', False):
+        base_path = sys._MEIPASS
+    else:
+        base_path = os.path.dirname(os.path.abspath(__file__))
+    filepath = os.path.join(base_path, "PYTANIA.txt")
+    with open(filepath, "r", encoding="utf-8") as file:
+        lines = file.readlines()
     lines = [i.strip() for i in lines]
     return lines
 
