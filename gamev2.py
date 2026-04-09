@@ -15,18 +15,25 @@ class Mapgrid:
         self.barrier = []
 class Question:
     def _init_(self,number):
+        self.lines = []
         self.number=number
         self.anwsers=[]
-def read_file(self):
-    flist=[]
-    with open("C:\\Users\\emile\\Downloads\\PYTANIA.txt", "r") as file:
-        lines = file.readlines()
-        lines = [i.strip() for i in lines]
-        return lines
-def set_anwsers(self,lines):
-    return
-        
+        self.number=0
+        self.odpowiedzi=[]
+        self.poprawna=0
+def read_file():
+    with open("PYTANIA.txt", "r",encoding="utf-8") as file:
+    lines = file.readlines()
+    lines = [i.strip() for i in lines]
+    return lines
 
+def set_anwsers(n,lines=read_file()):
+    q=lines[n*5]
+    o=[]
+    p = lines[n*5+1]
+    for i in lines[n*5+2:n*5+5]:
+        o.append(i)
+    return q,p,o
 
         
 def setup_barrier(graph):
@@ -60,8 +67,21 @@ def move_player(graph, direction): # funkcja przesuwa gracza w zadanym kierunku,
 
     if (0 <= new_pos[0] < graph.width and
         0 <= new_pos[1] < graph.height and
-        new_pos not in graph.walls):
-        graph.player = new_pos
+         new_pos not in graph.walls and new_pos not in graph.quiz):
+        graph.player = new_pos 
+    elif new_pos in graph.quiz:
+        q,p,o=set_anwsers(randint(0,75))
+        print(q)
+        for i in o:
+            print(i)
+        a=input()
+        if a == p:
+            print("Gratulacje, prawidłowa odpowiedź!")
+            time.sleep(1)
+            graph.player = new_pos
+        else:
+            print("To zła odpowiedź, nie przechodzisz dalej :(")
+            time.sleep(1)
     
 def draw_map(graph, width = 3): # funkcja rysuje matrycę mapy
     for y in range(graph.height):
