@@ -1,5 +1,5 @@
 import os
-
+import time
 from random import randint, choice
 from sys import platform
 import msvcrt
@@ -24,7 +24,7 @@ def read_file(self):
         lines = [i.strip() for i in lines]
         return lines
 def set_anwsers(self,lines):
-        
+    return
         
 
 
@@ -102,31 +102,49 @@ def setup_walls(graph, pct= 0.4): # funkcja losowo generuje ściany na mapie, pr
 
 def clear():
     os.system('cls' if os.name == 'nt' else 'clear')
-print(Question.read_file)
-            
-# def main():
+
+def start_menu():
+    print("""╔╗─╔╦═══╦╗──╔╗──╔═══╗╔╗
+║║─║║╔══╣║──║║──║╔═╗║║║
+║╚═╝║╚══╣║──║║──║║─║║║║
+║╔═╗║╔══╣║─╔╣║─╔╣║─║║╚╝
+║║─║║╚══╣╚═╝║╚═╝║╚═╝║╔╗
+╚╝─╚╩═══╩═══╩═══╩═══╝╚╝""")
+    print("Use W/A/S/D to move up/left/down/right.")
+    print("Reach the goal '!' while avoiding walls '#' and answering quizzes '?'.")
+    print("Press 'R' to reset the game at any time.")
+    input("Press Enter to start...")
+    clear()
+           
+def main():
     
-#     g = Mapgrid(15, 10)
-#     g.barrier = setup_barrier(g)
-#     g.walls = setup_walls(g)
-#     g.quiz = setup_quiz(g)
-#     draw_map(g)
+    g = Mapgrid(15, 10)
+    g.barrier = setup_barrier(g)
+    g.walls = setup_walls(g)
+    g.quiz = setup_quiz(g)
+    clear()
+    start_menu()
+    draw_map(g)
     
-#     while g.player != g.goal and True:
-#         print("Move (w/a/s/d): ", end="", flush=True)
-#         move = msvcrt.getch().decode('utf-8').lower()
-#         print(move)  # Display the key pressed
-#         move_player(g, move)
-#         clear()
-#         draw_map(g)
-#         if move == "r":
-#             break
-#     if g.player == g.goal:
-#         print("Congratulations! You've reached the goal!")
+    while g.player != g.goal and True:
+        print("Move (w/a/s/d): ", end="", flush=True)
+        move = msvcrt.getch().decode('utf-8').lower()
+        print(move)  # Display the key pressed
+        move_player(g, move)
+        clear()
+        draw_map(g)
+        if move == "r":
+            clear()
+            print("The end")          
+            time.sleep(2)       
+            clear()
+            break
+    if g.player == g.goal:
+        print("Congratulations! You've reached the goal!")
     
     
 
-# if __name__ == '__main__':
-#     main()
+if __name__ == '__main__':
+    main()
 
 
