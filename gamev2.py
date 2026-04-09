@@ -1,5 +1,5 @@
 import os
-
+import time
 from random import randint, choice
 from sys import platform
 import msvcrt
@@ -13,27 +13,22 @@ class Mapgrid:
         self.goal = (width-1, height-1)
         self.player = (0, 0)
         self.barrier = []
-
 class Question:
     def _init_(self,number):
-        self.lines = []
         self.number=number
         self.anwsers=[]
-        self.number=0
-        self.odpowiedzi=[]
-        self.poprawna=0
-def read_file():
-    with open("PYTANIA.txt", "r") as file:
+def read_file(self):
+    flist=[]
+    with open("C:\\Users\\emile\\Downloads\\PYTANIA.txt", "r") as file:
         lines = file.readlines()
         lines = [i.strip() for i in lines]
         return lines
-def set_anwsers(lines,n):
-    o=[]
-    p = lines[n*3-3]
-    for i in lines[1,2]:
-        o.append(i)
-    return o,n,p
+def set_anwsers(self,lines):
+    return
+        
 
+
+        
 def setup_barrier(graph):
         out=[]
         x=0
@@ -107,26 +102,42 @@ def setup_walls(graph, pct= 0.4): # funkcja losowo generuje ściany na mapie, pr
 
 def clear():
     os.system('cls' if os.name == 'nt' else 'clear')
-            
+
+def start_menu():
+    print("""╔╗─╔╦═══╦╗──╔╗──╔═══╗╔╗
+║║─║║╔══╣║──║║──║╔═╗║║║
+║╚═╝║╚══╣║──║║──║║─║║║║
+║╔═╗║╔══╣║─╔╣║─╔╣║─║║╚╝
+║║─║║╚══╣╚═╝║╚═╝║╚═╝║╔╗
+╚╝─╚╩═══╩═══╩═══╩═══╝╚╝""")
+    print("Use W/A/S/D to move up/left/down/right.")
+    print("Reach the goal '!' while avoiding walls '#' and answering quizzes '?'.")
+    print("Press 'R' to reset the game at any time.")
+    input("Press Enter to start...")
+    clear()
+           
 def main():
     
     g = Mapgrid(15, 10)
-    q= Question
     g.barrier = setup_barrier(g)
     g.walls = setup_walls(g)
     g.quiz = setup_quiz(g)
-    q.lines=read_file()
-    
+    clear()
+    start_menu()
     draw_map(g)
     
     while g.player != g.goal and True:
         print("Move (w/a/s/d): ", end="", flush=True)
-        move = input()
+        move = msvcrt.getch().decode('utf-8').lower()
         print(move)  # Display the key pressed
         move_player(g, move)
         clear()
         draw_map(g)
         if move == "r":
+            clear()
+            print("The end")          
+            time.sleep(2)       
+            clear()
             break
     if g.player == g.goal:
         print("Congratulations! You've reached the goal!")
