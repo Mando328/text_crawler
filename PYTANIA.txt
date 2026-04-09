@@ -1,0 +1,375 @@
+Które miasto jest stolicą Australii?
+b
+a Sydney
+b Canberra
+c Melbourne
+Jak nazywa się pierwiastek chemiczny o symbolu Au?
+c
+a Srebro
+b Aluminium
+c Złoto
+ W którym roku odbyła się bitwa pod Grunwaldem?
+a
+a 1410
+b 1385
+c 1525
+Kto namalował słynny obraz „Mona Lisa”?
+b
+a Vincent van Gogh
+b Leonardo da Vinci
+c Pablo Picasso
+Która planeta w Układzie Słonecznym jest największa?
+b
+a Saturn
+b Jowisz
+c Neptun
+Jakie zwierzę jest symbolem World Wide Fund for Nature (WWF)?
+a
+a Panda wielka
+b Niedźwiedź polarny
+c Tygrys bengalski
+Ile strun ma standardowa gitara klasyczna?
+c
+a 4
+b 5
+c 6
+Który kraj wygrał pierwszy w historii mundial (Mistrzostwa Świata w Piłce Nożnej) w 1930 roku?
+c
+a Brazylia
+b Argentyna
+c Urugwaj
+Co jest głównym składnikiem tradycyjnego hummusu?
+b
+a Soczewica
+b Ciecierzyca
+c Fasola
+Jak nazywa się najgłębszy rów oceaniczny na Ziemi?
+a
+a Rów Mariański
+b Rów Filipiński
+c Rów Portorykański
+Który pierwiastek ma symbol chemiczny O?
+b
+a Złoto
+b Tlen
+c Srebro
+W którym roku wybuchła II wojna światowa?
+a
+a 1939
+b 1914
+c 1945
+Ile kontynentów jest na Ziemi (według najpopularniejszego modelu)?
+b
+a 5
+b 7
+c 9
+Który ocean jest największy na świecie?
+c
+a Atlantycki
+b Indyjski
+c Spokojny
+Kto napisał epopeję narodową „Pan Tadeusz”?
+a
+a Adam Mickiewicz
+b Juliusz Słowacki
+c Cyprian Kamil Norwid
+Jaka jest stolica Włoch?
+c
+a Wenecja
+b Mediolan
+c Rzym
+Ile nóg ma pająk?
+b
+a 6
+b 8
+c 10
+W jakim kraju znajduje się Wieża Eiffla?
+a
+a Francja
+b Niemcy
+c Włochy
+Która planeta jest znana jako „Czerwona Planeta”?
+b
+a Wenus
+b Mars
+c Jowisz
+Jak nazywa się największy obecnie żyjący ssak lądowy?
+a
+a Słoń afrykański
+b Nosorożec
+c Żyrafa
+Które państwo graniczy z Polską od zachodu?
+b
+a Czechy
+b Niemcy
+c Litwa
+W jakim języku napisana jest „Boska Komedia” Dantego Alighieri?
+c
+a Po łacinie
+b Po grecku
+c Po włosku
+Jakie miasto nazywane jest „Wiecznym Miastem”?
+a
+a Rzym
+b Ateny
+c Jerozolima
+Ile kół ma standardowy samochód osobowy (nie licząc zapasowego)?
+b
+a 2
+b 4
+c 6
+Który organ w ludzkim ciele odpowiada za pompowanie krwi?
+c
+a Płuca
+b Wątroba
+c Serce
+Która planeta znajduje się najbliżej Słońca?
+a
+a Merkury
+b Wenus
+c Mars
+Ile boków ma sześciokąt?
+b
+a 5
+b 6
+c 8
+Jak nazywa się stolica Hiszpanii?
+c
+a Barcelona
+b Sewilla
+c Madryt
+Który pierwiastek chemiczny ma symbol Fe?
+a
+a Żelazo
+b Fluor
+c Fosfor
+Kto jest autorem obrazu „Gwiaździsta noc”?
+b
+a Claude Monet
+b Vincent van Gogh
+c Salvador Dali
+W którym roku Polska odzyskała niepodległość po zaborach?
+c
+a 1945
+b 1815
+c 1918
+Które zwierzę jest uważane za najszybsze na lądzie?
+a
+a Gepard
+b Lew
+c Antylopa
+Jak nazywa się największa pustynia na świecie?
+b
+a Sahara
+b Antarktyda
+c Gobi
+Kto napisał „Hamleta”?
+a
+a William Shakespeare
+b Charles Dickens
+c Mark Twain
+Z ilu graczy składa się drużyna piłkarska na boisku?
+c
+a 9
+b 10
+c 11
+Który kraj jest największy pod względem powierzchni?
+b
+a Kanada
+b Rosja
+c Chiny
+Jak nazywa się proces, w którym rośliny wytwarzają pokarm?
+a
+a Fotosynteza
+b Oddychanie
+c Fermentacja
+Ile barw ma tęcza (klasycznie)?
+c
+a 5
+b 6
+c 7
+Który instrument ma czarno-białe klawisze?
+b
+a Gitara
+b Fortepian
+c Skrzypce
+Jak nazywa się stolica Niemiec?
+a
+a Berlin
+b Monachium
+c Hamburg
+Kto był pierwszym człowiekiem w kosmosie?
+c
+a Neil Armstrong
+b Buzz Aldrin
+c Jurij Gagarin
+Jak nazywa się waluta obowiązująca w Japonii?
+b
+a Juan
+b Jen
+c Won
+Która witamina jest wytwarzana przez organizm pod wpływem słońca?
+c
+a Witamina A
+b Witamina C
+c Witamina D
+Które miasto jest siedzibą papieża?
+a
+a Watykan
+b Rzym
+c Neapol
+Jak nazywa się najdłuższa kość w ciele człowieka?
+b
+a Piszczelowa
+b Udowa
+c Ramienna
+W którym oceanie leży wyspa Madagaskar?
+c
+a Atlantyckim
+b Spokojnym
+c Indyjskim
+Jak nazywa się najmniejszy ptak świata?
+a
+a Koliber
+b Wróbel
+c Kanarek
+Kto wynalazł żarówkę?
+b
+a Nikola Tesla
+b Thomas Edison
+c Alexander Bell
+Który kraj słynie z kanałów w Amsterdamie?
+c
+a Belgia
+b Dania
+c Holandia
+Ile wynosi suma kątów w trójkącie?
+a
+a 180 stopni
+b 90 stopni
+c 360 stopni
+Jak nazywa się stolica Grecji?
+b
+a Saloniki
+b Ateny
+c Rodos
+Który metal jest płynny w temperaturze pokojowej?
+c
+a Ołów
+b Cynk
+c Rtęć
+W którym roku odbył się chrzest Polski?
+a
+a 966
+b 1000
+c 1410
+Która rzeka przepływa przez Londyn?
+b
+a Sekwana
+b Tamiza
+c Dunaj
+Jak nazywa się największy ssak morski?
+c
+a Rekin biały
+b Delfin
+c Płetwal błękitny
+Kto napisał „Małego Księcia”?
+a
+a Antoine de Saint-Exupéry
+b Victor Hugo
+c Albert Camus
+Ile kontynentów zaczyna się na literę A?
+b
+a 3
+b 4
+c 5
+Która góra jest najwyższa na Ziemi?
+c
+a K2
+b Kilimandżaro
+c Mount Everest
+W jakim kraju powstała pizza?
+a
+a we Włoszech
+b we Francji
+c w Grecji
+Jak nazywa się stolica Portugalii?
+b
+a Porto
+b Lizbona
+c Faro
+Ile zębów ma dorosły człowiek (standardowo)?
+c
+a 28
+b 30
+c 32
+Który gaz jest niezbędny do oddychania?
+a
+a Tlen
+b Azot
+c Wodór
+Jak nazywa się legendarny potwór z jeziora w Szkocji?
+b
+a Kraken
+b Nessie
+c Yeti
+Który kraj jest ojczyzną klocków LEGO?
+c
+a Szwecja
+b Norwegia
+c Dania
+Kto odkrył Amerykę w 1492 roku?
+a
+a Krzysztof Kolumb
+b Vasco da Gama
+c Amerigo Vespucci
+Jak nazywa się stolica Czech?
+b
+a Brno
+b Praga
+c Ostrawa
+Ile minut ma jedna godzina?
+c
+a 30
+b 45
+c 60
+Który owoc jest bazą do produkcji wina?
+a
+a Winogrona
+b Jabłka
+c Śliwki
+W którym państwie leży Wielki Mur?
+b
+a w Japonii
+b w Chinach
+c w Indiach
+Jak nazywa się górna warstwa skóry?
+c
+a Skóra właściwa
+b Tkanka podskórna
+c Naskórek
+Kto jest autorem „Pana Tadeusza”?
+a
+a Adam Mickiewicz
+b Henryk Sienkiewicz
+c Bolesław Prus
+Jak nazywa się linia dzieląca Ziemię na półkulę północną i południową?
+b
+a Południk
+b Równik
+c Zwrotnik
+Który sport kojarzony jest z Wimbledonem?
+c
+a Golf
+b Piłka nożna
+c Tenis
+Jak nazywa się największy kraj w Ameryce Południowej?
+a
+a Brazylia
+b Argentyna
+c Chile
+Która planeta ma charakterystyczne pierścienie?
+b
+a Jowisz
+b Saturn
+c Neptun
